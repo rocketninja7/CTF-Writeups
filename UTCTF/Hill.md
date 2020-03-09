@@ -1,4 +1,4 @@
-# Hill (89 points)
+# Hill (100 solves, 89 points)
 
 ## Problem:
 I found these characters on top of a hill covered with algae ... bruh I can't figure it out can you help me?
