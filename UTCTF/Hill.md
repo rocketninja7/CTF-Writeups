@@ -17,6 +17,7 @@ With 6 known characters, we can guess that the key is a 2x2 matrix, which only r
 Let the key be denoted as K.
 Knowing that "utflag" maps to "wznqca", we know that:
 
+<img src=http://latex2png.com/pngs/2cc065b79dc0045babf538323a9a59c4.png>
 
 Notice that 
 
