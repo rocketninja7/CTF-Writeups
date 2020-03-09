@@ -17,25 +17,31 @@ With 6 known characters, we can guess that the key is a 2x2 matrix, which only r
 Let the key be denoted as K.
 Knowing that "utflag" maps to "wznqca", we know that:
 
-<img src=http://latex2png.com/pngs/2cc065b79dc0045babf538323a9a59c4.png>
+<img src=http://latex2png.com/pngs/089bb66973de29ff6771dc4e2526e096.png>
+<img src=http://latex2png.com/pngs/adb13f7b38f95632958c9476a0716d8e.png>
+and
+<img src=http://latex2png.com/pngs/86eac93e1f76e72a84bbd8292967d3d8.png>
 
-Notice that 
+Notice that from the first two equations,
 
+<img src=http://latex2png.com/pngs/7d80e0cd1e6c2534ffd7e296631ba486.png>
 
+Now since 
 
-Now we can do 
+<img src=http://latex2png.com/pngs/79042ee0121f7fa183907de48b034dab.png>
 
+we can do 
 
+<img src=http://latex2png.com/pngs/ad483a5d32bd3e55484af3abf1fc3e6b.png>
 
 to get K.
 
-From there, we just need to get character pairs and multiply them by K<sup>-1</sup> which is 
-
-
+From there, we just need to get character pairs and multiply them by K<sup>-1</sup>.
 
 We also need to be wary of the capital D and the other symbols in the flag. The code below prints the flag in small letters so I manually changed the T to caps to get the flag.
 
 inv26 is just a helper function to find the inverse modulo 26 of a number using Extended Euclidean algorithm: https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm
+tempM is the known plaintext matrix and tempC is the corresponding ciphertext matrix. tempK is the key matrix.
 
 ## Code:
 ```python3
