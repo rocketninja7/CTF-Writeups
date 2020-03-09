@@ -38,12 +38,12 @@ to get K.
 
 From there, we just need to get character pairs and multiply them by K<sup>-1</sup>.
 
-We also need to be wary of the capital D and the other symbols in the flag. The code below prints the flag in small letters so I manually changed the T to caps to get the flag.
-
-inv26 is just a helper function to find the inverse modulo 26 of a number using Extended Euclidean algorithm: https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm
-tempM is the known plaintext matrix and tempC is the corresponding ciphertext matrix. tempK is the key matrix.
+We also need to be wary of the capital D and the other symbols in the flag.
 
 ## Code:
+The code below prints the flag in small letters so I manually changed the T to caps to get the flag.
+inv26 is just a helper function to find the inverse modulo 26 of a number using Extended Euclidean algorithm: https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm.
+tempM is the known plaintext matrix and tempC is the corresponding ciphertext matrix. tempK is the key matrix.
 ```python3
 from numpy import *
 
