@@ -36,7 +36,7 @@ we can do
 
 to get K.
 
-From there, we just need to get character pairs and multiply them by K<sup>-1</sup>.
+From there, we just need to get character pairs and left multiply them by K<sup>-1</sup>.
 
 We also need to be wary of the capital D and the other symbols in the flag.
 
