@@ -9,18 +9,18 @@ This challenge:
 - Unlocks other challenge(s)
 - Is eligible for Awesome Write-ups Award
 
-![problem](/images/problem.PNG)
+![](images/problem.PNG)
 
 ## Flag format: govtech-csg{derived-value}
 
 ## Solution:
 Upon downloading the document, we get a file called iot-challenge-3.pcap, a packet capture file.
 
-![](/images/pcap.PNG)
+![](images/pcap.PNG)
 
 Packet capture files can be opened using WireShark. After opening it, we see the following:
 
-![](/images/openpcap.PNG)
+![](images/openpcap.PNG)
 
 A quick Google search of the protocol shows that we are dealing with Bluetooth.
 LE which stands for Low Energy is also an acronym commonly associated to Bluetooth.
