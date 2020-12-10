@@ -9,7 +9,7 @@ This challenge:
 - Unlocks other challenge(s)
 - Is eligible for Awesome Write-ups Award
 
-![](/images/problem.PNG)
+![problem](/images/problem.PNG)
 
 ## Flag format: govtech-csg{derived-value}
 
